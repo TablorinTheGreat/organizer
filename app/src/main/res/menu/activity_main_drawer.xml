@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/calc"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="מחשבון זמנים" />
+        <item
+            android:id="@+id/sche"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="מערכת שעות" />
+        <item
+            android:id="@+id/cal"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="לוח שנה" />
+        <item
+            android:id="@+id/alarm"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="שעון מעורר" />
+        <item
+            android:id="@+id/todo"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="מטלות" />
+    </group>
+
+</menu>

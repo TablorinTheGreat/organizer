@@ -1,0 +1,49 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user1.organizer.day_fragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.mobeta.android.dslv.DragSortListView
+            android:id="@+id/day"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:focusable="false"
+            android:paddingBottom="0dp"
+            android:paddingTop="0dp"
+            tools:collapsed_height="2dp"
+            tools:drag_enabled="true"
+            tools:drag_scroll_start="0.33"
+            tools:drag_start_mode="onMove"
+            tools:float_alpha="0.6"
+            tools:max_drag_scroll_speed="0.5"
+            tools:remove_enabled="true"
+            tools:remove_mode="flingRemove"
+            tools:slide_shuffle_speed="0.3"
+            tools:sort_enabled="true"
+            tools:track_drag_sort="false"
+            tools:use_default_controller="true" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="16dp"
+            android:layout_marginRight="16dp"
+            android:clickable="true"
+
+            app:fabSize="normal"
+            app:layout_anchor="@+id/day"
+            app:srcCompat="@android:drawable/ic_menu_add" />
+    </RelativeLayout>
+
+</FrameLayout>
